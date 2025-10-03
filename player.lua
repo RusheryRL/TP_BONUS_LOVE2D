@@ -15,8 +15,6 @@ function isclicked(mouseIsClicked)
 end
 
 function getPlayerPoints(points, mouseIsClicked1)
-    if mouseIsClicked then
-        points = points + 1
-        isclicked = false
-    end
+    points = points + 1
+    isclicked = false
 end
