@@ -1,5 +1,5 @@
-require("egg")
-require("player")
+require("src.egg")
+require("src.player")
 
 function playerRectCollision(playerPosX, playerPosY, eggPosX, eggPosY, eggW, eggH)
     if playerPosX < eggPosX + eggW 

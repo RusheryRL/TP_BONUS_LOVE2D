@@ -1,4 +1,4 @@
-require("windowManagment")
+require("src.windowManagment")
 
 egg = {}
 egg.w = 50.0
